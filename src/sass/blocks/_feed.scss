@@ -1,0 +1,40 @@
+.feed {
+    padding-bottom: 71px;
+    &__item {
+        padding-top: 50px;
+        display: flex;
+        justify-content: left;
+        align-items: top;
+    }
+    &__img {
+        width: 169px;
+        height: 169px;
+    }
+    &__descr {
+        margin-left: 62px;
+        padding-right: 60px;
+    }
+    &__name {
+        font-size: 18px;
+        font-weight: 700;
+        color: rgb(13, 13, 13);
+    }
+    &__experience {
+        font-size: 14px;
+        font-weight: 300;
+        color: rgb(100, 100, 100);
+    }
+    &__text {
+        margin-top: 10px;
+        font-size: 16px;
+        font-weight: 300;
+        color: rgb(13, 13, 13);
+        line-height: 1.2;
+    }
+    hr {
+        border-bottom: none;
+        background-color: rgb(246, 246, 246);
+        width: 940px;
+        margin-top: 50px;
+    }
+}
